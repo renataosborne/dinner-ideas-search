@@ -1,0 +1,40 @@
+.App {
+  min-height: 100vh;
+  background-image: url("./vegan-gnocchi.webp");
+}
+
+.search-form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  width: 50%;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+ 
+}
+
+.search-button{
+  background: lightcoral;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 10px;
+}
+
+.recipes{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+h1{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 55px;
+  background-color: white;
+}
